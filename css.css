@@ -23,6 +23,7 @@ ul li::marker {content: "• ";}
 
 table {border-collapse: collapse; margin: 1rem 0; table-layout: fixed; width: 100%;}
 th, td {border: thin solid #cad5e2; padding: 0.2rem 0.5rem; vertical-align: top;} /*slate300*/
+tr:hover {background: #f1f5f9;} /*slate100*/
 
 .breadcrumbs, .flatlist {list-style: none; padding: 0;}
 .breadcrumbs li, .flatlist li {display: inline;}
