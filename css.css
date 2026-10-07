@@ -27,7 +27,7 @@ tr:hover {background: #f1f5f9;} /*slate100*/
 
 .breadcrumbs {list-style: none; padding: 0;}
 .breadcrumbs li {display: inline;}
-.breadcrumbs li+li:before {content: " › ";}
+.breadcrumbs li+li:before {content: " » ";}
 
 .col2 {columns: 2;} .col3 {columns: 3;}
 .footer {font-size: small; text-align: center;}
