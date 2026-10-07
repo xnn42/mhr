@@ -25,11 +25,14 @@ table {border-collapse: collapse; margin: 1rem 0; table-layout: fixed; width: 10
 th, td {border: thin solid #cad5e2; padding: 0.2rem 0.5rem; vertical-align: top;} /*slate300*/
 tr:hover {background: #f1f5f9;} /*slate100*/
 
-.breadcrumbs, .flatlist {list-style: none; padding: 0;}
-.breadcrumbs li, .flatlist li {display: inline;}
+.breadcrumbs {list-style: none; padding: 0;}
+.breadcrumbs li {display: inline;}
 .breadcrumbs li+li:before {content: " › ";}
-.flatlist li+li:before {content: " | ";}
 
 .col2 {columns: 2;} .col3 {columns: 3;}
 .footer {font-size: small; text-align: center;}
 .hang {margin: 1rem 0;} .hang p {margin: 0; padding: 0 0 0 1rem; text-indent: -1rem;}
+
+.flatlist {margin: 1rem 0;}
+.flatlist p {display: inline;}
+.flatlist p+p:before {content: " | ";}
